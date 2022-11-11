@@ -23,7 +23,7 @@ public class AlunoResouce {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Aluno incluir(Aluno aluno) {
-        return produtoService.salvar(produto);
+        return aluno;
     }
 
 }
